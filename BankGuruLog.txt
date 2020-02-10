@@ -1,0 +1,121 @@
+2020-02-10 21:47:08,445 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Precondition - Select Notebooks from Computers menu
+2020-02-10 21:47:17,694 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - Precondition: Login
+2020-02-10 21:47:22,800 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:22,805 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - Pre-condition: Open product details
+2020-02-10 21:47:26,409 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:32,451 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC01 - Step 01: Click to register link on Header
+2020-02-10 21:47:34,330 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC01 - Step 02: Click to register button
+2020-02-10 21:47:35,470 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC01 - Step 03: Verify error messages
+2020-02-10 21:47:35,515 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:35,555 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:35,592 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:35,631 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:35,670 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:35,670 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC02 - Step 01: Fill info
+2020-02-10 21:47:37,435 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC02 - Step 02: Click to register button
+2020-02-10 21:47:39,880 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC02 - Step 03: Verify error message
+2020-02-10 21:47:39,912 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:39,913 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC03 - Step 01: Fill info
+2020-02-10 21:47:41,687 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC03 - Step 02: Click to register button
+2020-02-10 21:47:43,066 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC03 - Step 03: Verify error message
+2020-02-10 21:47:43,106 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:43,107 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC04 - Step 01: Fill info
+2020-02-10 21:47:45,829 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC04 - Step 02: Verify error message
+2020-02-10 21:47:45,857 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:45,857 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC05 - Step 01: Fill info
+2020-02-10 21:47:47,578 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC05 - Step 02: Verify error message
+2020-02-10 21:47:47,613 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:47,613 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC06 - Step 01: Fill info
+2020-02-10 21:47:49,510 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC06 - Step 02: Click to register button
+2020-02-10 21:47:51,209 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC06 - Step 03: Verify success message
+2020-02-10 21:47:51,270 INFO  com.nopcommerce.frontend.FE_01_Register -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:47:51,271 INFO  com.nopcommerce.frontend.FE_01_Register - Register - TC07 - Step 01: Log out
+2020-02-10 21:48:04,250 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC01 - Step 01: Click to Login link on Header
+2020-02-10 21:48:06,251 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC01 - Step 02: Click to login button
+2020-02-10 21:48:07,389 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC01 - Step 03: Verify error message
+2020-02-10 21:48:07,465 INFO  com.nopcommerce.frontend.FE_02_Login -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:48:07,465 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC02 - Step 01: Fill invalid email
+2020-02-10 21:48:07,611 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC02 - Step 02: Click to login button
+2020-02-10 21:48:07,705 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC02 - Step 03: Verify error message
+2020-02-10 21:48:07,766 INFO  com.nopcommerce.frontend.FE_02_Login -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:48:07,767 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC03 - Step 01: Fill unregisted email
+2020-02-10 21:48:07,997 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC03 - Step 02: Click to login button
+2020-02-10 21:48:09,585 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC03 - Step 03: Verify error message
+2020-02-10 21:48:09,648 INFO  com.nopcommerce.frontend.FE_02_Login -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:48:09,648 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC04 - Step 01: Input email
+2020-02-10 21:48:09,859 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC04 - Step 02: Click to login button
+2020-02-10 21:48:13,140 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC04 - Step 03: Verify error message
+2020-02-10 21:48:13,191 INFO  com.nopcommerce.frontend.FE_02_Login -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:48:13,192 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC05 - Step 01: Fill info
+2020-02-10 21:48:13,515 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC05 - Step 02: Click to login button
+2020-02-10 21:48:14,042 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC05 - Step 03: Verify error message
+2020-02-10 21:48:14,120 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC06 - Step 01: Fill info
+2020-02-10 21:48:15,423 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC05 - Step 02: Click to login button
+2020-02-10 21:48:19,662 INFO  com.nopcommerce.frontend.FE_02_Login - Login - TC05 - Step 01: Verify login success
+2020-02-10 21:48:19,719 INFO  com.nopcommerce.frontend.FE_02_Login -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:48:25,164 INFO  com.nopcommerce.frontend.FE_03_MyAccount - Pre-condition - Step 01: Login to account
+2020-02-10 21:49:07,507 INFO  com.nopcommerce.frontend.FE_04_Search - Search - Pre-condition01: Login to account
+2020-02-10 21:49:49,890 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC01 - Step 01: Select sort by: Name: A to Z
+2020-02-10 21:49:51,243 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC01 - Step 02: Verify the products are ordered by name A to Z
+2020-02-10 21:49:51,363 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC02 - Step 01: Select sort by: Name: Z to A
+2020-02-10 21:49:53,357 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC02 - Step 02: Verify the products are ordered by name Z to A
+2020-02-10 21:49:53,475 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC03 - Step 01: Select sort by: Price: Low to High
+2020-02-10 21:49:54,638 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC03 - Step 02: Verify the products are ordered by Price Low to High
+2020-02-10 21:49:54,761 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC04 - Step 01: Select sort by: Price: High To Low
+2020-02-10 21:49:55,800 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC04 - Step 02: Verify the products are ordered by Price High to Low
+2020-02-10 21:49:55,919 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC05 - Step 01: Select display per page dropdown list
+2020-02-10 21:49:57,519 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC05 - Step 02: Verify 3 products displayed on page
+2020-02-10 21:49:57,535 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC06 - Step 01: Select display per page dropdown list
+2020-02-10 21:50:00,574 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC06 - Step 02: Verify 6 products displayed on page
+2020-02-10 21:50:00,591 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC07 - Step 01: Select display per page dropdown list
+2020-02-10 21:50:01,259 INFO  com.nopcommerce.frontend.FE_05_Sort_Display - Sort - TC07 - Step 02: Verify 9 products displayed on page
+2020-02-10 21:50:01,278 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 01: Click to add to wish list button
+2020-02-10 21:50:01,421 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 02: Verify success message
+2020-02-10 21:50:03,368 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 03: Access wishlist page
+2020-02-10 21:50:04,880 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 04: Verify product added to wish list
+2020-02-10 21:50:04,915 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:04,915 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 05: Click to Your wishlist URL for sharing
+2020-02-10 21:50:06,448 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC01 - Step 06: Verify product present in Wishlist URL for sharing
+2020-02-10 21:50:06,481 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:06,481 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC02 - Step 01: Access wishlist page
+2020-02-10 21:50:06,604 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:06,604 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC02 - Step 02: Add product to cart
+2020-02-10 21:50:07,719 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:10,525 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC02 - Step 03: Verify the product was added to Cart
+2020-02-10 21:50:10,554 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:10,584 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:50:10,584 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC02 - Step 04: Verify the product was removed from Wishlist
+2020-02-10 21:50:15,721 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03  - Step 01: Add product to wishlist
+2020-02-10 21:50:26,368 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03 - Step 02: Access wishlist page
+2020-02-10 21:51:15,931 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03 - Step 03: Select checkbox remove
+2020-02-10 21:51:17,047 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03 - Step 04: Click button UPDATE WISHLIST
+2020-02-10 21:51:17,593 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03 - Step 05: Verify message: The wishlist is empty!
+2020-02-10 21:51:17,628 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC03 - Step 06: Verify the product is not present in WishList
+2020-02-10 21:51:22,691 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:22,691 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 01: Access Home page
+2020-02-10 21:51:25,383 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 02: Select a product
+2020-02-10 21:51:26,471 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 03: Click to add to compare list button
+2020-02-10 21:51:26,593 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 04: Verify success message appears
+2020-02-10 21:51:27,628 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:27,628 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 05: Back to Home page
+2020-02-10 21:51:29,359 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 06: Select another product
+2020-02-10 21:51:30,266 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 07: Click to add to compare list button
+2020-02-10 21:51:31,397 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 08: Access product comparison list
+2020-02-10 21:51:33,157 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:33,157 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 09: Verify product info in Comparison list - price
+2020-02-10 21:51:33,216 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:33,274 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:33,274 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 10: Click 'CLEAR LIST' button
+2020-02-10 21:51:34,225 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 11: Verify error message appears
+2020-02-10 21:51:34,263 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:34,263 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC04 - Step 12: Verify no product in list
+2020-02-10 21:51:34,283 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 01: Access Home page
+2020-02-10 21:51:36,841 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 02: View product details 2
+2020-02-10 21:51:37,913 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 03: View product details 2
+2020-02-10 21:51:38,762 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 04: View product details 3
+2020-02-10 21:51:38,871 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 05: View product details 4
+2020-02-10 21:51:40,567 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 06: Access 'Recently viewed products' section
+2020-02-10 21:51:42,220 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - WishList - TC05 - Step 07: Verify only 3 products appears
+2020-02-10 21:51:42,265 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView -  -------------------------- PASSED -------------------------- 
+2020-02-10 21:51:42,265 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - OS Name = windows 10
+2020-02-10 21:51:43,251 INFO  com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView - ----------------QUIT BROWSER SUCCESS-----------------

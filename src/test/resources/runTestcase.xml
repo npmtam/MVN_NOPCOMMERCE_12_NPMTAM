@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Register and login" parallel="false">
+	
+	<test name="RUN ON FIREFOX UI">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="com.nopcommerce.account.Topic_05_Multiple_Browser_Factory_Pattern" />
+		</classes>
+	</test>
+
+	<test name="RUN ON CHROME UI">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.nopcommerce.account.Topic_05_Multiple_Browser_Factory_Pattern" />
+		</classes>
+	</test>
+
+	<test name="RUN ON CHROME HEADLESS">
+		<parameter name="browser" value="chrome_headless" />
+		<classes>
+			<class
+				name="com.nopcommerce.account.Topic_05_Multiple_Browser_Factory_Pattern" />
+		</classes>
+	</test>
+
+	<test name="RUN ON FIREFOX HEADLESS">
+		<parameter name="browser" value="firefox_headless" />
+		<classes>
+			<class
+				name="com.nopcommerce.account.Topic_05_Multiple_Browser_Factory_Pattern" />
+		</classes>
+	</test>
+
+</suite>
