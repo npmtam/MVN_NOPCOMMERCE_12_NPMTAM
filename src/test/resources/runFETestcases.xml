@@ -8,11 +8,11 @@
 	<test name="RUN ON CHROME UI">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.frontend.FE_01_Register" />
-			<class name="com.nopcommerce.frontend.FE_02_Login" />
-			<class name="com.nopcommerce.frontend.FE_03_MyAccount" />
-			<class name="com.nopcommerce.frontend.FE_04_Search" />
-			<class name="com.nopcommerce.frontend.FE_05_Sort_Display" />
+<!--			<class name="com.nopcommerce.frontend.FE_01_Register" />-->
+<!--			<class name="com.nopcommerce.frontend.FE_02_Login" />-->
+<!--			<class name="com.nopcommerce.frontend.FE_03_MyAccount" />-->
+<!--			<class name="com.nopcommerce.frontend.FE_04_Search" />-->
+<!--			<class name="com.nopcommerce.frontend.FE_05_Sort_Display" />-->
 			<class name="com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView" />
 
 

@@ -13,6 +13,7 @@ import commons.AbstractTest;
 import commons.PageGeneratorManager;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
+import pageObjects.SearchPO;
 import pageObjects.WishListPO;
 
 public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
@@ -21,6 +22,7 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 	private HomePageObject homePage;
 	private LoginPageObject loginPage;
 	private WishListPO wishListPage;
+	private SearchPO searchPage;
 	private FE_01_Register registerTestCases;
 	String email, productName1, productName2, productName3, productName4, productName5, password;
 
@@ -31,7 +33,7 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		driver = getBrowserDriver(browserName);
 		
 		abstractPage = new AbstractPage(driver);
-		
+		searchPage = new SearchPO(driver);
 		
 		email = "tamqada@gmail.com";
 		password = "123123";
@@ -61,7 +63,7 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 	}
 	
 	@Test
-	public void TC01_AddToWishList() {
+	public void TC_01_AddToWishList() {
 		log.info("WishList - TC01 - Step 01: Click to add to wish list button");
 		wishListPage.clickAddToWishListButton();
 		
@@ -138,11 +140,11 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		wishListPage.isErrorMessageEquals("The wishlist is empty!");
 		
 		log.info("WishList - TC03 - Step 06: Verify the product is not present in WishList");
-		verifyTrue(wishListPage.isProducstPresentEquals(0));
+		verifyTrue(wishListPage.isProductsPresentEquals(0));
 	}
 	
 	@Test
-	public void TC_04_Add_Product_To_Compare() {
+	public void TC_04_AddProductToCompare() {
 		homePage = PageGeneratorManager.getHomePage(driver);
 		log.info("WishList - TC04 - Step 01: Access Home page");
 		abstractPage.sleepInSecond(1);
@@ -189,11 +191,11 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		verifyTrue(wishListPage.isErrorMessageEquals("You have no items to compare."));
 		
 		log.info("WishList - TC04 - Step 12: Verify no product in list");
-		wishListPage.isProducstPresentEquals(0);
+		wishListPage.isProductsPresentEquals(0);
 	}
 	
 	@Test
-	public void TC_05_Recently_Viewed_Products() {
+	public void TC_05_RecentlyViewedProducts() {
 		log.info("WishList - TC05 - Step 01: Access Home page");
 		homePage = PageGeneratorManager.getHomePage(driver);
 		abstractPage.sleepInSecond(1);
@@ -216,9 +218,14 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		homePage.openMultiplePagesFooter("Recently viewed products");
 		abstractPage.sleepInSecond(1);
 		
-		log.info("WishList - TC05 - Step 07: Verify only 3 products appears");
+		log.info("WishList - TC05 - Step 07: Verify only 3 recent viewed products appears");
 		wishListPage = PageGeneratorManager.getWishListPage(driver);
-		verifyTrue(wishListPage.isProducstPresentEquals(3));
+		verifyTrue(wishListPage.isProductsPresentEquals(3));
+		searchPage = PageGeneratorManager.getSearchPage(driver);
+		verifyTrue(searchPage.isSpecificProductDisplayed(productName5));
+		verifyTrue(searchPage.isSpecificProductDisplayed(productName4));
+		verifyTrue(searchPage.isSpecificProductDisplayed(productName3));
+
 	}
 	
 	@AfterTest(alwaysRun = true)

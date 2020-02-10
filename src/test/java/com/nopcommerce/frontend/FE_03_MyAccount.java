@@ -56,9 +56,9 @@ public class FE_03_MyAccount extends AbstractTest {
         passwordUpdate = "automation";
         password = "098765";
 
-
         log.info("Pre-condition - Step 01: Login to account");
         homePage = PageGeneratorManager.getHomePage(driver);
+        abstractPage.sleepInSecond(1);
         homePage.clickToLoginLink();
         loginPage = PageGeneratorManager.getLoginPage(driver);
         abstractPage.sleepInSecond(1);

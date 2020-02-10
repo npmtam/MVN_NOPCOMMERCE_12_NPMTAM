@@ -28,7 +28,7 @@ public class SearchPO extends AbstractPage{
 		return errorMsg.equals(expectedValue);
 	}
 	
-	public boolean isSearchResultDisplayedProduct(String titleContains) {
+	public boolean isSpecificProductDisplayed(String titleContains) {
 		waitToElementVisible(SearchPageUI.PRODUCT_TITLE_IN_RESULT, titleContains);
 		return isElementDisplayed(SearchPageUI.PRODUCT_TITLE_IN_RESULT, titleContains);
 	}

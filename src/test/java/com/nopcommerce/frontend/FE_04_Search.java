@@ -1,14 +1,11 @@
 package com.nopcommerce.frontend;
 
-import java.util.concurrent.TimeUnit;
-
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.SearchPO;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -87,8 +84,8 @@ public class FE_04_Search extends AbstractTest {
 		
 		log.info("Search - TC03 - Verify 2 products displayed");
 		verifyEquals(searchPage.countProductInSearchResult(), 2);
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("IdeaCentre 600 All-in-One PC"));
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("Thinkpad X1 Carbon"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("IdeaCentre 600 All-in-One PC"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("Thinkpad X1 Carbon"));
 	}
 	
 	@Test
@@ -102,7 +99,7 @@ public class FE_04_Search extends AbstractTest {
 		
 		log.info("Search - TC04 - Step 03: Verify 1 product displayed");
 		verifyEquals(searchPage.countProductInSearchResult(), 1);
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("Thinkpad X1 Carbon"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("Thinkpad X1 Carbon"));
 	}
 	
 	@Test
@@ -147,7 +144,7 @@ public class FE_04_Search extends AbstractTest {
 		
 		log.info("Search - TC06 - Step 05: Verify the result");
 		verifyEquals(searchPage.countProductInSearchResult(), 1);
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("Apple MacBook Pro 13-inch"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("Apple MacBook Pro 13-inch"));
 	}
 	
 	@Test
@@ -199,7 +196,7 @@ public class FE_04_Search extends AbstractTest {
 		log.info("Search - TC08 - Step 07: Verify search result");
 		abstractPage.sleepInSecond(1);
 		verifyEquals(searchPage.countProductInSearchResult(), 1);
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("Apple MacBook Pro 13-inch"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("Apple MacBook Pro 13-inch"));
 	}
 	
 	@Test
@@ -229,7 +226,7 @@ public class FE_04_Search extends AbstractTest {
 		
 		log.info("Search - TC09 - Step 08: Verify search result");
 		verifyEquals(searchPage.countProductInSearchResult(), 1);
-		verifyTrue(searchPage.isSearchResultDisplayedProduct("Apple MacBook Pro 13-inch"));
+		verifyTrue(searchPage.isSpecificProductDisplayed("Apple MacBook Pro 13-inch"));
 	}
 	
 	@Test

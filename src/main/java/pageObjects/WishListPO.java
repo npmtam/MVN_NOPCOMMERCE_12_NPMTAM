@@ -75,7 +75,7 @@ public class WishListPO extends AbstractPage {
 		return actualResult.equals(expectedText);
 	}
 	
-	public boolean isProducstPresentEquals(int expectedResult) {
+	public boolean isProductsPresentEquals(int expectedResult) {
 		return countElements(ProductDetailsUI.PRODUCT_TITLE_WISHLIST) == expectedResult;
 	}
 	
@@ -95,5 +95,4 @@ public class WishListPO extends AbstractPage {
 		waitToElementClickable(ProductDetailsUI.CLEAR_LIST_BUTTON);
 		clickToElement(ProductDetailsUI.CLEAR_LIST_BUTTON);
 	}
-	
 }
