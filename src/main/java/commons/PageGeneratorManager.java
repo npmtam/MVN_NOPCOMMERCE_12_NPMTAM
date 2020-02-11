@@ -3,16 +3,6 @@ package commons;
 import pageObjects.*;
 import org.openqa.selenium.WebDriver;
 
-//import pageObjects.FooterShoppingCartPO;
-//import pageObjects.MyAccountPO;
-//import pageObjects.WishListPO;
-//import pageObjects.HomePageObject;
-//import pageObjects.LoginPageObject;
-//import pageObjects.ProductDetailsPO;
-//import pageObjects.RegisterPageObject;
-//import pageObjects.SearchPO;
-//import pageObjects.SortPO;
-
 public class PageGeneratorManager {
 
 	public static HomePageObject getHomePage(WebDriver driver) {
@@ -49,5 +39,9 @@ public class PageGeneratorManager {
 	
 	public static WishListPO getWishListPage(WebDriver driver) {
 		return new WishListPO(driver);
+	}
+
+	public static OrderPO getOrderPage(WebDriver driver){
+		return new OrderPO(driver);
 	}
 }

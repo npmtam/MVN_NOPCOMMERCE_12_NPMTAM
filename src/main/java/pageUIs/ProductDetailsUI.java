@@ -17,7 +17,7 @@ public class ProductDetailsUI {
 	public static final String REMOVE_CHECKBOX = "//input[@name='removefromcart']";
 	public static final String ADD_TO_CARD_BUTTON = "//input[@name='addtocartbutton']";
 	public static final String UPDATE_WISHLIST_BUTTON = "//input[@name='updatecart']";
-	public static final String EMPTY_WISHLIST_MSG = "//div[@class='page-body']/div[@class='no-data']";
+	public static final String EMPTY_MSG = "//div[@class='page-body']//div[@class='no-data']";
 	
 	public static final String PRODUCT_TITLE_WISHLIST = "//a[@class='product-name']";
 	
@@ -25,4 +25,7 @@ public class ProductDetailsUI {
 	public static final String COMPARE_LINK_IN_SUCCESS_MSG = "//a[text()='product comparison']";
 	public static final String PRICE_IN_COMPARE_LIST = "//tr[@class='product-price']/td[%s]";
 	public static final String CLEAR_LIST_BUTTON = "//a[@class='clear-list']";
+
+	//Order
+	public static final String ADD_TO_CART_BUTTON_PRODUCT_DETAILS = "//input[@value='Add to cart']";
 }

@@ -8,4 +8,6 @@ public class HomePageUI {
 //	public static final String LOGIN_BUTTON = "//a[@class='ico-login']";
 	public static final String LOGO_LINK = "//div[@class='header-logo']/a";
 	public static final String PRODUCT_TITLE = "//h2[@class='product-title']/a[contains(text(), '%s')]";
+
+	public static final String HEADER_SHOPPING_CART_LINK = "//a[@href='/cart']";
 }

@@ -66,6 +66,10 @@ public class HomePageObject extends AbstractPage {
 		waitToElementClickable(HomePageUI.LOGO_LINK);
 		clickToElement(HomePageUI.LOGO_LINK);
 	}
-	
-	
+
+	public void clickToHeaderShoppingCart(){
+		waitToElementVisible(HomePageUI.HEADER_SHOPPING_CART_LINK);
+		clickToElement(HomePageUI.HEADER_SHOPPING_CART_LINK);
+	}
+
 }

@@ -425,6 +425,9 @@ public class AbstractPage {
 	public void openMultiplePagesHeader(String pageName) {
 		waitToElementVisible(AbstractPageUI.HEADER_LINKS, pageName);
 		clickToElement(AbstractPageUI.HEADER_LINKS, pageName);
+		if(pageName.equalsIgnoreCase("Shopping cart")){
+
+		}
 	}
 
 	public void openDynamicSubMenu(String menuText, String subMenu) {

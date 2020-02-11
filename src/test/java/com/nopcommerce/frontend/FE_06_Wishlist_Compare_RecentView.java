@@ -74,14 +74,14 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		wishListPage.clickToAccessLinkFromSuccessMsg("wishlist");
 		
 		log.info("WishList - TC01 - Step 04: Verify product added to wish list");
-		verifyTrue(wishListPage.isProductAddedToWishList(productName1));
+		verifyTrue(wishListPage.isProductPresented(productName1));
 		
 		log.info("WishList - TC01 - Step 05: Click to Your wishlist URL for sharing");
 		abstractPage.sleepInSecond(1);
 		wishListPage.clickToURLSharing();
 		
 		log.info("WishList - TC01 - Step 06: Verify product present in Wishlist URL for sharing");
-		verifyTrue(wishListPage.isProductAddedToWishList(productName1));
+		verifyTrue(wishListPage.isProductPresented(productName1));
 	}
 	
 	@Test
@@ -101,9 +101,9 @@ public class FE_06_Wishlist_Compare_RecentView extends AbstractTest {
 		verifyTrue(wishListPage.isAddToCardCheckboxSelected());
 		wishListPage.clickToAddToCardButton();
 		
-		log.info("WishList - TC02 - Step 03: Verify the product was added to Cart");
+		log.info("WishList - shopping cartTC02 - Step 03: Verify the product was added to Cart");
 		verifyTrue(abstractPage.isSubPageTitleEquals("Shopping cart"));
-		verifyTrue(wishListPage.isProductAddedToWishList(productName1));
+		verifyTrue(wishListPage.isProductPresented(productName1));
 		
 		log.info("WishList - TC02 - Step 04: Verify the product was removed from Wishlist");
 		homePage = PageGeneratorManager.getHomePage(driver);

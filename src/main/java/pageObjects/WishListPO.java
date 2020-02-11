@@ -33,7 +33,7 @@ public class WishListPO extends AbstractPage {
 		clickToElement(ProductDetailsUI.LINK_IN_SUCCESS_MSG, textLink);
 	}
 	
-	public boolean isProductAddedToWishList(String productName) {
+	public boolean isProductPresented(String productName) {
 		String actualName = getTextElement(ProductDetailsUI.PRODUCT_TITLE_WISHLIST);
 		return actualName.contains(productName);
 	}
@@ -57,7 +57,7 @@ public class WishListPO extends AbstractPage {
 	}
 	
 	public boolean isWishListEmpty() {
-		return isElementDisplayed(ProductDetailsUI.EMPTY_WISHLIST_MSG);
+		return isElementDisplayed(ProductDetailsUI.EMPTY_MSG);
 	}
 	
 	public void clickToRemoveCheckbox() {
@@ -71,7 +71,7 @@ public class WishListPO extends AbstractPage {
 	}
 	
 	public boolean isErrorMessageEquals(String expectedText) {
-		String actualResult = getTextElement(ProductDetailsUI.EMPTY_WISHLIST_MSG);
+		String actualResult = getTextElement(ProductDetailsUI.EMPTY_MSG);
 		return actualResult.equals(expectedText);
 	}
 	

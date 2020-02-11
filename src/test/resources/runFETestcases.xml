@@ -13,7 +13,8 @@
 <!--			<class name="com.nopcommerce.frontend.FE_03_MyAccount" />-->
 <!--			<class name="com.nopcommerce.frontend.FE_04_Search" />-->
 <!--			<class name="com.nopcommerce.frontend.FE_05_Sort_Display" />-->
-			<class name="com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView" />
+<!--			<class name="com.nopcommerce.frontend.FE_06_Wishlist_Compare_RecentView" />-->
+			<class name="com.nopcommerce.frontend.FE_07_Order" />
 
 
 		</classes>
