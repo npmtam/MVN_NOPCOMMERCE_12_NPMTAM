@@ -1,28 +1,15 @@
-2020-02-11 22:06:59,601 INFO  com.nopcommerce.frontend.FE_07_Order - Precondition: Login
-2020-02-11 22:07:02,930 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:02,949 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 -  Step 01: Open product details of Apple MacBook Pro 13-inch
-2020-02-11 22:07:06,130 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 - Step 02: Verify open product details successfully
-2020-02-11 22:07:06,224 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:06,225 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 - Step 03: Press Add to cart button
-2020-02-11 22:07:06,456 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 - Step 04: Verify success message
-2020-02-11 22:07:06,841 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 - Step 05: Access shopping cart page
-2020-02-11 22:07:07,819 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC01 - Step 06: Verify the product has been added to Cart page
-2020-02-11 22:07:08,858 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:08,860 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC03 - Step 01: Access Shopping Cart
-2020-02-11 22:07:10,583 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC03 - Step 02: Select checkbox Remove
-2020-02-11 22:07:10,871 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC03 - Step 03: Click button Update shopping cart
-2020-02-11 22:07:11,599 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC03 - Step 04: Verify success message appears
-2020-02-11 22:07:11,646 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:11,646 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC03 - Step 05: Verify no product present
-2020-02-11 22:07:16,716 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:16,717 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 01: Access Home page
-2020-02-11 22:07:18,492 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 02: Select Desktop from menu Computer
-2020-02-11 22:07:21,488 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 03: Click to Add to cart button from product Lenovo IdeaCentre 600 All-in-One PC
-2020-02-11 22:07:21,737 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 04: Verify the product has been added to Cart
-2020-02-11 22:07:22,802 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 05: Access Shopping Cart page
-2020-02-11 22:07:24,498 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 06: Input the quantity is 5
-2020-02-11 22:07:24,754 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 07: Update shopping cart
-2020-02-11 22:07:25,682 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 08: Verify total amount
-2020-02-11 22:07:25,760 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
-2020-02-11 22:07:25,762 INFO  com.nopcommerce.frontend.FE_07_Order - OS Name = windows 10
-2020-02-11 22:07:26,503 INFO  com.nopcommerce.frontend.FE_07_Order - ----------------QUIT BROWSER SUCCESS-----------------
+2020-02-16 19:49:45,540 INFO  com.nopcommerce.frontend.FE_07_Order - Precondition: Login
+2020-02-16 19:49:51,672 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
+2020-02-16 19:49:51,691 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 01: Access Home page
+2020-02-16 19:49:53,209 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 02: Select Desktop from menu Computer
+2020-02-16 19:49:55,200 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 03: Click to Add to cart button from product Lenovo IdeaCentre 600 All-in-One PC
+2020-02-16 19:49:56,331 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 04: Verify the product has been added to Cart
+2020-02-16 19:49:56,709 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 05: Access Shopping Cart page
+2020-02-16 19:49:57,472 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 06: Input the quantity is 5
+2020-02-16 19:49:58,608 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 07: Update shopping cart
+2020-02-16 19:50:00,391 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 08: Verify total amount
+2020-02-16 19:50:00,454 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- PASSED -------------------------- 
+2020-02-16 19:50:00,454 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC04 - Step 09: Remove the product from Cart
+2020-02-16 19:50:02,412 INFO  com.nopcommerce.frontend.FE_07_Order -  -------------------------- FAILED -------------------------- 
+2020-02-16 19:50:02,454 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC05 - Step 01: Access Home page
+2020-02-16 19:50:02,576 INFO  com.nopcommerce.frontend.FE_07_Order - Order - TC05 - Step 02: Open product details of Apple MacBook Pro 13-inch

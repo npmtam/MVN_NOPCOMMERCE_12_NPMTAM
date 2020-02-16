@@ -131,6 +131,20 @@ public class AbstractPage {
 		select.selectByVisibleText(valueItem);
 	}
 
+	public void selectItemInDropdownByIndex(String locator, int index, String... valueField){
+		locator = String.format(locator, (Object[]) valueField);
+		element = driver.findElement(By.xpath(locator));
+		select = new Select(element);
+		select.selectByIndex(index);
+	}
+
+	public void selectItemInDropdownByIndex(String locator, int index){
+		element = driver.findElement(By.xpath(locator));
+		select = new Select(element);
+		select.selectByIndex(index);
+
+	}
+
 	public String getFirstItemInDropdown(String locator) {
 		select = new Select(driver.findElement(By.xpath(locator)));
 		return select.getFirstSelectedOption().getText();
